@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <form action="" method="post" id="loginForm">
+        <!-- <div>
+            <input onkeypress="keyLog()" type="text" id="username"  name="username" placeholder="Username" />
+        </div> -->
+        <!-- <div>
+            <input onkeydown="keyDown()" type="password" id="password" name="password" placeholder="Password" />
+        </div> -->
+        <!-- <div>
+            <input nkeyup="keyUp()" type="password" id="password" name="password" placeholder="Password" />
+        </div> -->
+        <div>
+            <input onfocus="usernameFocus()" onblur="usernameBlur()" type="text" id="username" name="username" placeholder="Username" />
+        </div>
+        <div>
+            <input type="password" id="password" name="password" placeholder="Password" />
+        </div>
+        <div>
+            <button onclick="dataValidation()" type="button" id="loginBtn">Login</button>
+        </div>
+        <p class="signup-link">Not registered? <a href="#">Sign up</a></p>
+    </form>
+
+    <div class="message-container">
+        <p id="message"></p>
+    </div>
+    <script src="./script/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+
+Brief explanation : 
+DOM is a tree-like representation of an HTML page that allows JavaScript to read, modify,
+and interact with page elements.
+
+
+
+// ===========================================================
+
+
+
+Full explanation : 
+The DOM (Document Object Model) is a tree-structured, object-based representation of a web page that the browser creates after parsing the HTML.
+In this model, every part of the page such as elements, text, and attributes is represented as a node.
+
+Through the DOM, JavaScript can:
+
+Access HTML elements
+
+Change content, styles, and attributes
+
+Create, update, or remove elements
+
+Respond to events like clicks and user input
+
+In simple terms, the DOM is the bridge between HTML and JavaScript, and without it, a web page would be static and non-interactive.

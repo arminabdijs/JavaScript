@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <form action="" method="post" id="loginForm">
+        <div class="input-group">
+            <input type="text" id="username"  onclick="showAlert('username')" onblur="closeAlert('username')" onkeyup="keypress()" name="username" placeholder="Username" />
+            <p class="alert username-alert">username must be at least 3 characters long</p>
+        </div>
+        <div class="input-group">
+            <input type="password" id="password" onclick="showAlert('password')" onblur="closeAlert('password')" onkeyup="keypress()"  name="password" placeholder="Password" />
+            <p class="alert password-alert">password must be at least 8 characters long</p>
+        </div>
+        <div>
+            <button onclick="dataValidation()" type="button" id="loginBtn">Login</button>
+        </div>
+        <p class="signup-link">Not registered? <a href="#">Sign up</a></p>
+    </form>
+
+    <div class="message-container">
+        <p id="message"></p>
+    </div>
+    <script src="./script/script.js"></script>
+</body>
+
+</html>

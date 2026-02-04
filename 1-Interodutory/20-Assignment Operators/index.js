@@ -25,11 +25,11 @@
 
 // ------------------------------------------------
 // x++ VS ++x
-// let num1 = 0;
+let num1 = 0;
 
-// let num2 = num1++;
+let num2 = num1++;
 
 // let num2 = ++num1;
 
-// console.log("num2 : " + num2);
-// console.log("num1 : " + num1);
+console.log("num2 : " + num2);
+console.log("num1 : " + num1);
