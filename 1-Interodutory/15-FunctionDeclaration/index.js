@@ -1,7 +1,7 @@
 // Using destructuring to get log method from console
 // const { log } = console;
 // import {log} from 'console';
-const {log} = require('console');
+const { log } = require('console');
 
 // ================================================================
 
@@ -35,6 +35,33 @@ log(multiplyNumber(4));*/
 
 //================================================================
 
+/* function ask(question, ok, no) {
+    if (confirm(question)) ok();
+    else no();
+}
+function showOk() {
+    console.log("You agreed");
+}
+function showCancel(params) {
+    console.log("You have canceled the run");
+}
+
+ask("do you agree ? ", showOk, showCancel); */
+
+
+//================================================================
+
+/* function showCount(count) {
+    console.log(count ?? "unknown");
+}
+
+showCount(0); // 0
+showCount(null); // unknown
+showCount(); // unknown
+showCount("Hello") // Hello */
+
+//================================================================
+
 // Function to check army eligibility
 /*let i = 0
 
@@ -64,45 +91,3 @@ log(armyCheck(18, 'male'), ++i);
 log(armyCheck(40, 'female'), ++i);
 log(armyCheck(39, 'female'), ++i);
 log(armyCheck(22, 'male'), ++i);*/
-
-// ================================================================
-// Enhanced army eligibility check with health status
-/*
-function armyCheck(age, gender, healthStatus) {
-    function checkGender() {
-        if (gender === 'female') {
-            return "You are not eligible for army";
-        } else {
-            return checkAge();
-        }
-    }
-
-    function checkAge() {
-        if (age < 18 || age >= 40) {
-            return "You are not eligible for army";
-        } else {
-            return checkHealth();
-        }
-    }
-
-    function checkHealth() {
-        if (healthStatus === 'unfit') {
-            return "You are not eligible for army";
-        } else {
-            return "You are eligible for army";
-        }
-    }
-
-    return checkGender();
-}
-
-i = 0;
-log(armyCheck(25, 'male', 'fit'), ++i);
-log(armyCheck(17, 'male', 'fit'), ++i);
-log(armyCheck(30, 'female', 'fit'), ++i);
-log(armyCheck(45, 'male', 'fit'), ++i);
-log(armyCheck(18, 'male', 'fit'), ++i);
-log(armyCheck(40, 'female', 'fit'), ++i);
-log(armyCheck(39, 'female', 'fit'), ++i);
-log(armyCheck(22, 'male', 'fit'), ++i);
-log(armyCheck(22, 'male', 'unfit'), ++i);*/
