@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "imgSrc": "./assets/image/product1.webp",
+    "title": "SPORT SHOE",
+    "description": "Elevate your performance with our cutting-edge Sport Shoe. Featuring a breathable knit upper for optimal ventilation and a high-rebound midsole for superior energy return, these shoes keep you comfortable and agile. The robust traction outsole ensures stability on any surface, making them ideal for running, training, or active daily wear. Experience the perfect blend of speed, comfort, and modern athletic design.",
+    "price": 53
+  },
+  {
+    "id": 2,
+    "imgSrc": "./assets/image/product2.webp",
+    "title": "WOMEN SHOE",
+    "description": "Make a sophisticated statement with our elegant Women’s Shoe. Crafted from premium polished leather, this timeless heel features a sleek silhouette and a delicately pointed toe. The plush, memory foam footbed provides exceptional cushioning for all-day comfort, while the finely balanced stiletto heel ensures confident wear. Perfect for formal events, business attire, or adding a touch of luxury to any evening outfit.",
+    "price": 87
+  },
+  {
+    "id": 3,
+    "imgSrc": "./assets/image/product3.webp",
+    "title": "BOOTS",
+    "description": "Conquer any adventure with our rugged Boots. Made from water-resistant, full-grain leather, these boots offer exceptional durability and protection. The secure lace-up system and padded collar ensure ankle support, while the moisture-wicking lining keeps feet dry. With a heavy-duty lug sole for superior traction, they are perfect for hiking, work, or urban exploration in any season. Style meets resilience.",
+    "price": 34
+  }
+]

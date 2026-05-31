@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Suggestion Box</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script defer src="./script/script.js"></script>
+  </head>
+  <body>
+    <div class="search-box">
+      <input id="input-fild" type="text" autocomplete="off" placeholder="Search..." />
+      <svg
+        class="icon"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 512 512"
+        width="1em"
+        height="1em"
+        fill="#644dff"
+        aria-hidden="true"
+      >
+        <path
+          d="M505 442.7L405.3 343c28.4-34.9 45.4-79.4 45.4-127.9C450.7 95.5 355.2 0 237.4 0S24.1 95.5 24.1 215.1s95.5 215.1 213.3 215.1c48.5 0 93-16.9 127.9-45.4L465 505c9.4 9.4 24.6 9.4 33.9 0l6.1-6.1c9.4-9.4 9.4-24.6 0-34.2zM237.4 367.1c-84 0-152.1-68.1-152.1-152.1S153.4 62.9 237.4 62.9s152.1 68.1 152.1 152.1-68.1 152.1-152.1 152.1z"
+        />
+      </svg>
+      <ul id="suggestions" class="suggestions"></ul>
+    </div>
+  </body>
+</html>
