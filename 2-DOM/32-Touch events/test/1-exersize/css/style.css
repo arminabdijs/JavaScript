@@ -1,0 +1,61 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  color: #bebbbe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(220deg, rgb(255, 60, 0), rgb(255, 0, 179));
+  min-height: 100vh;
+}
+
+.container {
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 1rem;
+}
+
+.wrapper__input {
+  padding: 1rem 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  border: 2px solid #bebbbe;
+  border-radius: 1rem;
+  transition: all 250ms ease-in;
+}
+
+.wrapper__input--adsin {
+}
+
+.input__text {
+  width: 40rem;
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+}
+
+.length__number {
+  font-size: 2rem;
+  border-left: 1px solid #bebbbe;
+  padding-left: 1.5rem;
+  width: 4rem;
+}
+
+
+.wrapper__input:focus-within{
+    border-color: #68a4b6;
+}

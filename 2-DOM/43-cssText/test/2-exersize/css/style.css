@@ -1,0 +1,83 @@
+*,
+*::before,
+::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --color-yellow:#ff8f00;
+  --color-green:#4CAF50;
+  --color-pink:#f15389;
+  --color-red:#f00;
+  --color-blackred:#930101;
+  --color-black:#000;
+}
+
+html {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+body {
+  height: 100vh;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-green);
+}
+.container {
+  width: 600px;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  padding: 1rem 2rem;
+  transform: scale(1.5);
+}
+.wrapper__weight {
+  display: flex;
+  gap: 2px;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.content__input {
+  position: relative;
+}
+input[type='range'] {
+  width: 430px;
+  appearance: none;
+  background-color: transparent;
+  border: none;
+}
+input[type='range']:hover {
+  border: none;
+  cursor: pointer;
+}
+
+.weight__range--content {
+  width: 428px;
+  height: 2px;
+  background-color: #000;
+  border-radius: 2px;
+  position: absolute;
+  top: 6.8px;
+  left: 1px;
+  right: 1px;
+  z-index: -1;
+}
+
+.result__BMI {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 4rem;
+  color: var(--color-green)
+}
+.alert__BMI {
+  text-align: center;
+  margin-top: 1rem;
+  color: var(--color-green);
+  margin-bottom: 2rem;
+}

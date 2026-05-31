@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.container{
+    background: url("../assets/images/MIKASA.jfif") no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brightness-box{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    background-color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+}
+
+input{
+    width: 100%;
+}

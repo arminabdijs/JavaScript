@@ -1,0 +1,113 @@
+*,
+*::before,
+::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+body {
+  height: 100vh;
+  font-size: 1.6rem;
+  transition: all 250ms ease-in-out;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  background-image: url('../assets/images/MIKASA.jfif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  transition: filter 1s ease-in;
+}
+
+h1 {
+  color: #d72ce9;
+  font-size: 7rem;
+  margin-bottom: 4rem;
+  user-select: none;
+}
+
+button {
+  width: 40%;
+  border: none;
+  padding: 1rem;
+  font-size: 3rem;
+  background-color: #7ae6ff;
+  border-radius: 1rem;
+  cursor: pointer;
+  user-select: none;
+  outline: none;
+}
+
+.modal-parent {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  transition: display 1s ease-in;
+}
+.modal-parent.active {
+  display: flex;
+  z-index: 1000;
+}
+.modal {
+  background-color: #fff;
+  padding: 3rem 4rem;
+  box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.2);
+  border-radius: 2rem;
+  animation: fadeIn 2s ease-in;
+  width: 50%;
+  text-align: justify;
+  position: relative;
+}
+
+.active .modal {
+  animation: fadeIn 2s ease-in;
+}
+
+p {
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+
+.close__modal {
+  font-size: 4rem;
+  position: absolute;
+  top: 0rem;
+  right: 1.5rem;
+  cursor: pointer;
+  color: red;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-60rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

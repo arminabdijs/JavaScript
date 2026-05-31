@@ -1,0 +1,137 @@
+*,
+*::before,
+::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --theme-color: #f50c4b;
+}
+
+html {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: #fafafa;
+}
+
+.container {
+  margin: 0 auto;
+  width: 40rem;
+  margin-top: 10rem;
+}
+
+.card {
+  text-align: center;
+  border-radius: 1rem;
+  overflow: hidden;
+  background-color: #fefefe;
+  box-shadow: 0 0 2rem #b7b4b4;
+}
+.card__image {
+  background-color: var(--theme-color);
+  transition: all 0.7s ease-in;
+  height: 13.5rem;
+  position: relative;
+}
+
+.profile__img {
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  bottom: -7rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.card__content {
+  padding-top: 9rem;
+  padding-bottom: 5rem;
+}
+
+.card__title {
+  font-size: 2.5rem;
+  color: var(--theme-color);
+  transition: all 0.7s ease-in;
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+}
+.card__activity-basin {
+  color: #606c79;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.content__follows {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5rem;
+}
+.wrapper__followers,
+.wrapper__following {
+  width: 40%;
+}
+.follow__count {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.follow__title {
+  font-size: 2rem;
+  color: var(--theme-color);
+  transition: all 0.7s ease-in;
+  font-weight: 600;
+  margin-bottom: 4rem;
+}
+.follow__btn,
+.message__btn {
+  border: none;
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 5rem;
+  background-color: var(--theme-color);
+  transition: all 0.7s ease-in;
+  color: white;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.message__btn {
+  background-color: transparent;
+  border: 0.3rem solid var(--theme-color);
+  color: var(--theme-color);
+  transition: all 0.7s ease-in;
+}
+
+.wrapper__color-plates {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 0.3rem;
+  margin-top: 5rem;
+  background-color: #fefefe;
+  box-shadow: 0 0 2rem #b7b4b4;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.color-plate {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 0.3rem solid #d7dddd;
+  cursor: pointer;
+  transition: transform 0.3s ease-in;
+}
+
+.color-plate:hover{
+  transform: scale(1.2);
+}

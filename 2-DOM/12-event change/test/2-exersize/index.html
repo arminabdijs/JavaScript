@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>AniScope</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form class="form" action="#" target="_blank">
+        <input type="text" placeholder="search" id="form__input" class="form__input" />
+        <svg
+          class="form__icon-search"
+          height="40px"
+          viewBox="0 -960 960 960"
+          wclassth="40px"
+          fill="#e3e3e3"
+        >
+          <path
+            d="M765-144 526-383q-30 22-65.79 34.5-35.79 12.5-76.18 12.5Q284-336 214-406t-70-170q0-100 70-170t170-70q26 0 49.5 5t45.5 15l-57 56q-9.32-2-18.64-3T384-744q-70 0-119 49t-49 119q0 70 49 119t119 49q58 0 102-33.5t59-86.5h74q-5 26-16 49.5T577-434l239 239-51 51Zm-69-336q0-90.33-62.84-153.16Q570.33-696 480-696q90.33 0 153.16-62.84Q696-821.67 696-912q0 90.33 62.84 153.16Q821.67-696 912-696q-90.33 0-153.16 62.84Q696-570.33 696-480Z"
+          />
+        </svg>
+      </form>
+
+      <div class="contact">
+        <div class="contact__loading">
+          <h2 class="loading__title">Loading ...</h2>
+        </div>
+
+        <div class="empty__search-box">
+          <h2 class="empty__title"></h2>
+        </div>
+
+        <div class="contact__data">
+          <h2>name : <span class="title__name"> </span></h2>
+          <h3>year : <span class="data__date"></span></h3>
+          <h3>rating : <span class="data__rating"></span></h3>
+
+          <div class="wrapper__genre">
+            <h3>genre :</h3>
+            <ul class="genre__item"></ul>
+          </div>
+          <p class="contact__description"></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script/index.js"></script>
+  </body>
+</html>

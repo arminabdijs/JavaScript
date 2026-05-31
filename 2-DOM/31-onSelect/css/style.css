@@ -1,0 +1,30 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+}
+
+#text {
+  width: 50rem;
+  height: 30rem;
+  border-radius: 2rem;
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+  font-size: 2rem;
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+
+
+#text::selection{
+    background: #f1730b;
+}

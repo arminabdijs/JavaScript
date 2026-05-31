@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2628eade-87d9-4e62-8af1-0bcbc2034006" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../126-differences between keydown , keypress and keyup/test/.idea/exersize.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../136-The concept of preventDefault and its use in different situations/test/.idea/exersize.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../159-removeEventListener/assets/fonts/Lacquer-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../159-removeEventListener/assets/fonts/Poppins-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../159-removeEventListener/assets/fonts/Poppins-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../159-removeEventListener/assets/fonts/Poppins-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../159-removeEventListener/assets/fonts/Poppins-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../159-removeEventListener/assets/fonts/Poppins-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../159-removeEventListener/assets/images/app-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../159-removeEventListener/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../159-removeEventListener/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../159-removeEventListener/script/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../160-onSelect/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../160-onSelect/assets/fonts/Lacquer-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../160-onSelect/assets/fonts/Poppins-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../160-onSelect/assets/fonts/Poppins-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../160-onSelect/assets/fonts/Poppins-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../160-onSelect/assets/fonts/Poppins-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../160-onSelect/assets/fonts/Poppins-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../160-onSelect/assets/images/app-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../160-onSelect/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../160-onSelect/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../160-onSelect/script/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../161-Touch events/assets/fonts/Lacquer-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../161-Touch events/assets/fonts/Poppins-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../161-Touch events/assets/fonts/Poppins-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../161-Touch events/assets/fonts/Poppins-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../161-Touch events/assets/fonts/Poppins-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../161-Touch events/assets/fonts/Poppins-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../161-Touch events/assets/images/app-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../161-Touch events/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../161-Touch events/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../161-Touch events/script/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../170-onScroll/assets/fonts/Lacquer-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../170-onScroll/assets/fonts/Poppins-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../170-onScroll/assets/fonts/Poppins-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../170-onScroll/assets/fonts/Poppins-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../170-onScroll/assets/fonts/Poppins-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../170-onScroll/assets/fonts/Poppins-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../170-onScroll/assets/images/app-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../170-onScroll/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../170-onScroll/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../170-onScroll/script/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../173-scrollTo-and-scrollBy/assets/fonts/Lacquer-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../173-scrollTo-and-scrollBy/assets/fonts/Poppins-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../173-scrollTo-and-scrollBy/assets/fonts/Poppins-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../173-scrollTo-and-scrollBy/assets/fonts/Poppins-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../173-scrollTo-and-scrollBy/assets/fonts/Poppins-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../173-scrollTo-and-scrollBy/assets/fonts/Poppins-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../173-scrollTo-and-scrollBy/assets/images/app-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../173-scrollTo-and-scrollBy/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../173-scrollTo-and-scrollBy/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../173-scrollTo-and-scrollBy/script/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../175-media/test/1-exersize/.idea/exersize.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../175-media/test/2-exersize/.idea/exersize-2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../182-Drag and Drop Events/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../182-Drag and Drop Events/.idea/182-Drag and Drop Events.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../182-Drag and Drop Events/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../182-Drag and Drop Events/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../182-Drag and Drop Events/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../182-Drag and Drop Events/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/exersize.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/script0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/1-exersize/assets/images/IMG_20260228_200829.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/1-exersize/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/1-exersize/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/1-exersize/script/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/MIKASA.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/Nezuko Kamado ❤️.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/a7244f3907a4b4a09e053f29dcf7cb02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/akaza-demon-slayer-3840x2160-25671.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/black-asta-black-3840x2160-22972.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/demon-slayer-3840x2160-23247.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/download (26).jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/goku-black-and-3840x2160-20871.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/goku-perfected-3840x2160-25454.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/goku-ultra-instinct-3840x2160-22575.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/gon-freecss-green-3840x2160-22503.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/guts-drawing-3840x2160-13853.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/ichigo-kurosaki-3840x2160-10528.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/igris-solo-leveling-3840x2160-14646.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/itachi-uchiha-3840x2160-25576.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/itachi-uchiha-dark-3840x2160-20031.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/itachi-uchiha-red-3840x2160-25017.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/kaiju-no-8-3d-model-3840x2160-20434.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/kaiju-no-8-5k-fan-3840x2160-20504.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/kaiju-no-8-anime-3840x2160-24391.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/ken-takakura-red-3840x2160-20264.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/levi-ackerman-3840x2160-10446.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/minato-namikaze-3840x2160-24353.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/muichiro-tokito-3840x2160-22499.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/saitama-ok-one-3840x2160-20909.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/samurai-silhouette-3840x2160-24349.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/satoru-gojo-jujutsu-3840x2160-25362.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/satoru-gojo-pop-art-3840x2160-14158.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/solo-leveling-3840x2160-14657.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/solo-leveling-5k-3840x2160-14664.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/solo-leveling-sung-jinwoo-3840x2160-14670.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/straw-hat-luffy-one-3840x2160-22500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/sukuna-electric-3840x2160-22504.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/sukuna-red-3840x2160-19862.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/sung-jinwoo-3840x2160-21523.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/sung-jinwoo-angry-3840x2160-21322.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/sung-jinwoo-anime-3840x2160-22581.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/sung-jinwoo-artwork-3840x2160-14671.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/sung-jinwoo-blue-3840x2160-20312.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/sung-jinwoo-dope-3840x2160-20241.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/sung-jinwoo-hunter-3840x2160-14669.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/sung-jinwoo-movie-3840x2160-20245.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/sung-jinwoo-purple-3840x2160-21363.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/sung-jinwoo-season-3840x2160-23604.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/tanjiro-kamado-4334x2160-20019.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/tougen-anki-3840x2160-23222.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/tougen-anki-anime-3840x2160-23052.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/tougen-anki-dark-3840x2160-23269.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/turbo-granny-okarun-3840x2160-19414.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/uwp4977619.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/uwp4977627.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/uwp4977630.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/uwp4977632.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/uwp4977635.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/uwp4978710.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/uwp4978711.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/uwp4978712.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/uwp4978715.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/uwp4978718.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/uwp4978719.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/uwp4978721.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/uwp4978722.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/uwp4978723.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/uwp4978727.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/uwp4979169.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/uwp4979219.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/uwp4979221.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/uwp4979237.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/uwp4979245.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/uwp4980261.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/uwp4980265.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/uwp4980266.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/uwp4985552.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/wp13115877-anime-8k-city-wallpapers.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/wp13665013-anime-pc-8k-wallpapers.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/wp9612420-4k-anime-computer-wallpapers.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/wriothesley-genshin-3840x2160-19470.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/yu-nishinoya-3840x2160-14068.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/yuji-itadori-choso-3840x2160-25230.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/assets/images/yuji-itadori-season-3840x2160-25220.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../119-event change/2-exersize/script/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../126-differences between keydown , keypress and keyup/exersize/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../126-differences between keydown , keypress and keyup/exersize/.idea/exersize.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../126-differences between keydown , keypress and keyup/exersize/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../126-differences between keydown , keypress and keyup/exersize/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../126-differences between keydown , keypress and keyup/exersize/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../126-differences between keydown , keypress and keyup/exersize/assets/fonts/Lacquer-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../126-differences between keydown , keypress and keyup/exersize/assets/fonts/Poppins-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../126-differences between keydown , keypress and keyup/exersize/assets/fonts/Poppins-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../126-differences between keydown , keypress and keyup/exersize/assets/fonts/Poppins-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../126-differences between keydown , keypress and keyup/exersize/assets/fonts/Poppins-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../126-differences between keydown , keypress and keyup/exersize/assets/fonts/Poppins-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../126-differences between keydown , keypress and keyup/exersize/assets/images/app-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../126-differences between keydown , keypress and keyup/exersize/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../126-differences between keydown , keypress and keyup/exersize/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../126-differences between keydown , keypress and keyup/exersize/script/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../136-The concept of preventDefault and its use in different situations/exersize/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../136-The concept of preventDefault and its use in different situations/exersize/.idea/exersize.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../136-The concept of preventDefault and its use in different situations/exersize/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../136-The concept of preventDefault and its use in different situations/exersize/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../136-The concept of preventDefault and its use in different situations/exersize/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../136-The concept of preventDefault and its use in different situations/exersize/assets/fonts/Lacquer-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../136-The concept of preventDefault and its use in different situations/exersize/assets/fonts/Poppins-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../136-The concept of preventDefault and its use in different situations/exersize/assets/fonts/Poppins-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../136-The concept of preventDefault and its use in different situations/exersize/assets/fonts/Poppins-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../136-The concept of preventDefault and its use in different situations/exersize/assets/fonts/Poppins-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../136-The concept of preventDefault and its use in different situations/exersize/assets/fonts/Poppins-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../136-The concept of preventDefault and its use in different situations/exersize/assets/images/app-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../136-The concept of preventDefault and its use in different situations/exersize/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../136-The concept of preventDefault and its use in different situations/exersize/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../136-The concept of preventDefault and its use in different situations/exersize/script/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../140-Dom Navigation/exersize/assets/fonts/Lacquer-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../140-Dom Navigation/exersize/assets/fonts/Poppins-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../140-Dom Navigation/exersize/assets/fonts/Poppins-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../140-Dom Navigation/exersize/assets/fonts/Poppins-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../140-Dom Navigation/exersize/assets/fonts/Poppins-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../140-Dom Navigation/exersize/assets/fonts/Poppins-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../140-Dom Navigation/exersize/assets/images/app-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../140-Dom Navigation/exersize/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../140-Dom Navigation/exersize/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../140-Dom Navigation/exersize/script/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../143-remove element/exersize/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../143-remove element/exersize/.idea/exersize.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../143-remove element/exersize/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../143-remove element/exersize/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../143-remove element/exersize/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../143-remove element/exersize/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../143-remove element/exersize/assets/fonts/Lacquer-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../143-remove element/exersize/assets/fonts/Poppins-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../143-remove element/exersize/assets/fonts/Poppins-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../143-remove element/exersize/assets/fonts/Poppins-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../143-remove element/exersize/assets/fonts/Poppins-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../143-remove element/exersize/assets/fonts/Poppins-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../143-remove element/exersize/assets/images/app-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../143-remove element/exersize/assets/images/bin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../143-remove element/exersize/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../143-remove element/exersize/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../143-remove element/exersize/script/index.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="3BGLY30naXJespAtwam9ajj3FAs" />
+  <component name="ProjectViewState">
+    <option name="flattenModules" value="true" />
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Armin Abdi/Documents/js --new",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2628eade-87d9-4e62-8af1-0bcbc2034006" name="Changes" comment="" />
+      <created>1774110508256</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1774110508256</updated>
+      <workItem from="1774110509492" duration="2088000" />
+      <workItem from="1774179362927" duration="18877000" />
+      <workItem from="1774226922855" duration="71000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,16 @@
+*,
+*::before,
+::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --color-red:#f00;
+}
+
+
+h1{
+  color: var(--color-red);
+}

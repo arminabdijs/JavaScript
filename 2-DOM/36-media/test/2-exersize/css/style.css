@@ -1,0 +1,90 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  height: 91.4vh;
+  margin: 4rem 0;
+  font-family: sans-serif;
+  background: linear-gradient(130deg, #000 29%, #ff006c);
+  color: beige;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 108rem;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+}
+
+.music__container {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 30rem);
+
+  gap: 5rem;
+}
+
+.music {
+  background-color: #5a9300;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  transition: transform 250ms ease-in;
+}
+
+.music:hover{
+  transform: scale(1.1);
+  box-shadow: 0 8px 25px rgba(255, 89, 0, 0.6)
+}
+
+
+.btn {
+
+  background-color: #f60000;
+  padding: 0.1rem 2rem;
+  border-radius: 1rem;
+  opacity: 0;
+  transition: opacity 250ms ease-in;
+}
+
+.music:hover .btn {
+  opacity: 1;
+}
+
+.Baba_Bah_Bah {
+  background-image: url('../assets/images/Baba_Bah_Bah_FT_Mahyar.png');
+}
+
+.nazanm_chon {
+  background-image: url('../assets/images/nazanm_chon.png');
+}
+
+.jezhw {
+  background-image: url('../assets/images/@jezhw4n__جێژوان_–_Dinmeyen__Dam_Üstüne_Çul_serer.png');
+}
+
+.musicallkurdi {
+  background-image: url('../assets/images/@musicallkurdi.png');
+}
+.RapRelease {
+  background-image: url('../assets/images/@RapRelease_-_Faghat_Bash_-_Mahyar.png');
+}

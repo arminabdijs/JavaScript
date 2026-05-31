@@ -1,0 +1,78 @@
+html {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+*, *::before, ::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    height: 100dvh;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fd3086;
+}
+
+
+.passwordContainer {
+    padding: .2rem .5rem;
+    overflow: hidden;
+    border-radius: 3rem;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
+    width: 20%;
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transform: scale(1.4);
+}
+
+.passwordInput::placeholder {
+    color: #83898f;
+}
+
+
+.passwordInput {
+    padding: 1.2rem 1.5rem;
+    width: 80%;
+    border: none;
+    outline: none;
+    font-style: italic;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #314171;
+    background-color: #f7f7f7;
+}
+
+.togglePassword{
+    margin-right: .5rem;
+    border: none;
+    outline: none;
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+ }
+
+#passwordIcon{
+    display: none;
+}
+
+.active #passwordIcon{
+   display: block;
+
+ }
+
+
+.active #textIcon{
+   display: none;
+
+}

@@ -1,0 +1,178 @@
+*,
+*::before,
+::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+body {
+  height: 100vh;
+  font-size: 1.6rem;
+  transition: all 250ms ease-in-out;
+  position: relative;
+}
+
+.container {
+  margin: 0 auto;
+  width: 75%;
+}
+
+.content__input {
+  margin: 0 auto;
+  padding-top: 5rem;
+}
+
+.todo-list__title {
+  text-align: center;
+  font-size: 6rem;
+  font-weight: 500;
+  word-spacing: 1.4rem;
+}
+
+.todo-list__input {
+  width: 100%;
+  height: 4.5rem;
+  padding: 1rem 1.5rem;
+  font-size: 1.8rem;
+  outline: none;
+  border-radius: 1rem;
+  border: 2px solid #5c9fed;
+  margin-top: 3rem;
+  color: #657172;
+  margin-bottom: 2rem;
+}
+
+.todo-list__input:focus {
+  border: 1px solid #5c9fed;
+
+  box-shadow: 0 0 2rem #5c9fed;
+  outline: 1px solid #5c9fed;
+}
+
+.wrapper__color-plates {
+  display: flex;
+  gap: 0.3rem;
+  margin-top: 1rem;
+  padding-left: 1rem;
+}
+
+.color-plate {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #333;
+  cursor: pointer;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.icon {
+  width: 45px;
+  height: 45px;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.icon__please {
+  border: 2px solid #009688;
+}
+
+.icon__bin {
+  border: 2px solid #ff1f65;
+}
+
+.icon__please:hover svg line {
+  stroke: white;
+}
+
+.icon__please:hover {
+  background-color: #009688;
+}
+
+.icon__bin:hover svg path {
+  stroke: white;
+}
+
+.icon__bin:hover {
+  background-color: #ff1f65;
+}
+
+.content__history {
+  padding: 1rem 2rem;
+}
+
+.item__history {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid #e0e0e0;
+  border-radius: 0.5rem;
+  padding: 3rem 2rem;
+  text-align: center;
+  font-size: 2rem;
+  margin: 0.5rem 0 1rem 0;
+}
+
+.history__title {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.item__history.unTodo > .history__title {
+  color: #9c9aa6;
+  text-decoration: line-through;
+}
+
+.links {
+  padding-right: 3rem;
+}
+
+.btn {
+  padding: 0.8rem;
+  background-color: #439c4d;
+  border: none;
+  border-radius: 0.5rem;
+  color: aliceblue;
+  font-size: 1.5rem;
+  width: 9.5rem;
+  cursor: pointer;
+}
+
+.btn--red {
+  background-color: #c9423e;
+  margin-left: 1rem;
+}
+
+p {
+  position: fixed;
+  top: 0;
+  width: 400px;
+  background-color: red;
+  color: aliceblue;
+  padding: 4rem;
+  margin: 2rem;
+  border-radius: 2rem;
+  font-size: 2rem;
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 1s ease-in;
+}
+
+p.active {
+  opacity: 1;
+  z-index: 1000;
+}

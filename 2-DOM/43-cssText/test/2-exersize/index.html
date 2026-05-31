@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="script/index.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper__weight">
+        <div class="content__input">
+          <input
+            type="range"
+            id="weight__range"
+            name="weight__range"
+            class="weight__range"
+            value="20"
+            min="20"
+            max="200"
+          />
+          <div class="weight__range--content"></div>
+        </div>
+
+        <label id="weight__range--lable" for="weight__range">20 KG</label>
+      </div>
+      <div class="wrapper__weight">
+        <div class="content__input">
+          <input
+            type="range"
+            id="height__range"
+            name="height__range"
+            class="height__range"
+            value="100"
+            min="100"
+            max="250"
+          />
+           <div class="weight__range--content"></div>
+        </div>
+        <label id="height__range--lable" for="height__range">100 CM</label>
+      </div>
+      <h2 class="result__BMI">20.0</h2>
+      <p class="alert__BMI">Normalweight</p>
+    </div>
+  </body>
+</html>

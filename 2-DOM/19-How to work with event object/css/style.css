@@ -1,0 +1,68 @@
+html {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    font-size: 10px;
+    background-color: black;
+}
+
+*, *::before, ::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    height: 100dvh;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    width: 60rem;
+    background-color: #fb5673;
+    padding: 6rem;
+    border-radius: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap: 5rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap: 2rem;
+    width: 40rem;
+}
+
+.form__input {
+    display: block;
+    padding: 1.2rem 1.5rem;
+    border: none;
+    border-radius: 3rem;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
+    outline: none;
+    font-weight: 600;
+    color: #000000;
+    width:inherit;
+    background-color: rgb(255 255 255);
+}
+
+.form__icon-search {
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: 50%;
+    padding: .5rem;
+}
+
+
+
+h1 {
+    color: greenyellow;
+}

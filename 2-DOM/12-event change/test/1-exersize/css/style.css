@@ -1,0 +1,70 @@
+html {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+*, *::before, ::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    height: 100dvh;
+    background: rgba(0, 0, 0, 0.1) url("../assets/images/IMG_20260228_200829.jpg") no-repeat fixed center;
+    background-size: cover;
+    background-blend-mode: darken;
+    font-size: 1.6rem;
+    padding: 15rem;
+}
+
+
+.container {
+    width: 137rem;
+    background-color: rgba(255, 255, 255, .15);
+    padding: 10rem 6rem 6rem 6rem;
+    margin: 0 auto;
+    border-radius: 1rem;
+}
+
+.wrapper__input {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 3rem 12rem;
+}
+
+.form__input  {
+    padding: 1.2rem 1.5rem;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
+    outline: none;
+    font-weight: 600;
+    color: #404c53;
+}
+
+.form__input::placeholder  {
+
+    color: #83898f;
+}
+
+
+.wrapper__btn {
+    margin-top: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+
+    padding: 1.2rem 2.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    color: #4f3904;
+    background-color: #e0b800;
+    font-size: 1.6rem;
+}

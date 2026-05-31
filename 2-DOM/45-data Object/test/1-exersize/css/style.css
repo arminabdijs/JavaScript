@@ -1,0 +1,263 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: sans-serif;
+}
+
+:root {
+  --purple: #b030b0;
+  --blue: #3479bf;
+  --black: #1a1a1a;
+}
+
+body {
+  font-size: 1.6rem;
+  color: #000002;
+}
+
+img {
+  object-fit: fill;
+  overflow: hidden;
+}
+
+.container {
+  width: 160rem;
+  margin: 17rem auto;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 4rem;
+}
+
+.content__phone-info {
+  border: 1px solid #d3d8e4;
+  border-radius: 2rem;
+  padding: 4.2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 75%;
+}
+
+.phone-info {
+  width: 55%;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.caption {
+  color: #385086;
+  font-size: 1.2rem;
+  margin-top: 1.2rem;
+}
+
+.colors {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.caption__color {
+  font-size: 1.4rem;
+}
+
+.color-text {
+  font-weight: bold;
+  margin-right: 0.8rem;
+}
+
+.cards-color {
+  display: flex;
+  gap: 2rem;
+  width: 10.5rem;
+  border-bottom: 1px solid #d3d8e4;
+  padding-bottom: 1.6rem;
+}
+
+.card-color {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.card-color.color-Active {
+  border: 2px solid #00ff89;
+}
+
+.card-color--purple {
+  background-color: var(--purple);
+}
+
+.card-color--blue {
+  background-color: var(--blue);
+}
+
+.card-color--black {
+  background-color: var(--black);
+}
+
+.main-option__title {
+  margin-bottom: 1.3rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.main-options {
+  padding: 1.8rem 2rem;
+  border: 1px solid #d3d8e4;
+  border-radius: 0.5rem;
+}
+
+.option {
+  display: flex;
+  gap: 2rem;
+  font-size: 1.4rem;
+  padding: 1.4rem 0;
+  border-bottom: 1px dashed #d3d8e4;
+}
+.option:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.option:first-child {
+  padding-top: 0;
+}
+
+.options__title {
+  color: #385086;
+}
+.options__caption {
+  font-weight: 500;
+}
+
+.phone-photo {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wrapper__images {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.wrapper__images > img {
+  border: 1px solid #d7dee0;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.content__price {
+  margin-top: 2rem;
+
+  width: 25%;
+}
+
+.price-count__time {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.discount-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: .6rem;
+}
+#countdown {
+  font-weight: 600;
+  color: #da1e28;
+}
+
+
+.line-red{
+  height: .2rem;
+  background-color:#da1e28 ;
+  border-radius: 100%;
+}
+ .card__price {
+  padding: 2.4rem;
+  box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 10%);
+  border-radius: 2rem;
+}
+
+.discounted-amount {
+  width: fit-content;
+  background-color: #da1e28;
+  color: aliceblue;
+  border-radius: 4rem;
+  padding: 0.3rem 1.2rem;
+  margin-right: auto;
+  font-size: 1.8rem;
+
+  margin-top: 2rem;
+}
+
+.unit__price {
+  font-size: 1.3rem;
+  margin-right: 0.3rem;
+}
+
+.wrapper__price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  font-weight: 500;
+}
+
+.initial-price {
+  text-align: left;
+  width: 50%;
+  font-size: 1.8rem;
+  text-decoration: line-through;
+  color: #919ebc;
+}
+
+.price-after__discount {
+  width: 50%;
+  text-align: left;
+  font-size: 2.4rem;
+}
+
+.btn-add-to-card {
+  margin-top: 3rem;
+  width: 100%;
+  border: none;
+  font-size: 1.6rem;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  background-color: #223c78;
+  height: 5.2rem;
+  border-radius: 1rem;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.btn-add-to-card__svg {
+  position: absolute;
+  left: 2.4rem;
+}

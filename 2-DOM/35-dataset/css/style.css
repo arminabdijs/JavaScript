@@ -1,0 +1,45 @@
+:root {
+  --primary-color: #007bff;
+  --danger-color: #eb152a;
+  --light-bg: #f8f9fa;
+  --dark-text: #343a40;
+  --border-color: #ced4da;
+  --modal-backdrop: rgba(0, 0, 0, 0.5);
+}
+
+*,
+::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: #ebf8ff;
+  color: var(--dark-text);
+  text-align: center;
+  padding: 2rem 0;
+}
+
+button {
+  margin-top: 2rem;
+  background-color: #f53da3c2;
+  width: 15rem;
+  border: none;
+  padding: 1rem 0;
+  border-radius: 2rem;
+  font-size: 2rem;
+  color: antiquewhite;
+  font-weight: 600;
+  outline: none;
+  cursor: pointer;
+  top: 9px;
+  right: 75rem;
+}

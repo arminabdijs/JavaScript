@@ -1,0 +1,62 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: sans-serif;
+}
+body {
+  font-size: 1.6rem;
+  color: #000002;
+  background: linear-gradient(
+    130deg,
+    rgb(76, 0, 121),
+    rgb(162, 0, 255),
+    rgb(105, 0, 119),
+    rgb(225, 0, 255),
+    rgb(136, 0, 141),
+    rgb(247, 0, 255),
+    rgb(139, 1, 109),
+    rgb(255, 0, 200)
+  );
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.hours,
+.minutes,
+.seconds {
+  font-size: 70px;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+}
+.doted {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  flex-direction: column;
+}
+
+.dot__top,
+.dot__button {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 100%;
+}

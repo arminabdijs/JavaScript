@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container-form">
+      <h1 class="container-form__title">فرم ثبت اطلاعات</h1>
+      <form action="" autocomplete="off" id="form" class="form">
+        <div class="form__group">
+          <label class="form__label" for="username">نام و نام خانوادگی : </label>
+          <input
+            class="form__input input__value"
+            type="text"
+            id="username"
+            name="username"
+            placeholder="نام و نام خانوادگی ...."
+          />
+        </div>
+
+        <div class="form__group">
+          <label class="form__label" for="email">ایمیل : </label>
+          <input
+            class="form__input input__value"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="example@domain.com"
+          />
+        </div>
+
+        <div class="form__group">
+          <label class="form__label" for="email">شماره تماس : </label>
+          <input class="form__input input__value" type="tel" name="phone" id="phone" placeholder="09xxxxxxxx" />
+        </div>
+        <div class="form__group">
+          <label class="form__label" for="email">پیام شما : </label>
+          <textarea
+            class="form__textarea input__value"
+            id="message"
+            name="message"
+            placeholder="پیام خود را اینجا بنویسید.."
+          ></textarea>
+        </div>
+
+        <div class="wrapper__btns">
+          <button type="reset" class="btn btn--red cancel">لغو</button>
+          <button type="submit" class="btn btn--blue">ارسال</button>
+        </div>
+      </form>
+    </div>
+
+    <div id="model" class="model">
+        <div class="content">
+            <h2 class="model__title">تایید خروج</h2>
+             <p class="model__paragraph">آیا از خروج از صفحه مطمئن هستید؟ اطلاعات وارد شده ممکن است ذخیره نشوند.</p>
+              <div class="wrapper__btns">
+            <button type="reset" class="btn btn--blue no__open">لغو</button>
+            <button type="submit" class="btn btn--red ok__close">تایید</button>
+        </div>
+        </div>
+    </div>
+
+    <script src="./script/script.js"></script>
+  </body>
+</html>

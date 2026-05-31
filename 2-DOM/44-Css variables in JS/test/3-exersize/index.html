@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SabzLearn Js BookList</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script defer src="./script/sceipt.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content__title">
+        <svg
+          class="icon__title"
+          width="55"
+          height="55"
+          viewBox="0 0 64 64"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M6 14c0-3 9-6 26-3v40c-17-3-24 1-26 3z"
+            fill="#f09610"
+            stroke="#f09610"
+            stroke-width="2"
+            stroke-linejoin="round"
+          />
+
+          <path
+            d="M58 14c0-3-9-6-26-3v40c17-3 24 1 26 3z"
+            fill="#f09610"
+            stroke="#f09610"
+            stroke-width="2"
+            stroke-linejoin="round"
+          />
+
+          <path d="M32 10v80" stroke="#f0fcf8" stroke-width="2" />
+        </svg>
+        <h1 class="title"><span class="title__content">Book</span>List</h1>
+      </div>
+      ‌
+      <form class="book-form" id="book-form">
+        <div class="form-group">
+          <label>Title</label>
+          <input type="text" id="title" class="input__filed" placeholder="عنوان کتاب" />
+        </div>
+        <div class="form-group">
+          <label>Author</label>
+          <input type="text" id="author" class="input__filed" placeholder="نویسنده" />
+        </div>
+        <div class="form-group">
+          <label>Year</label>
+          <input type="text" id="year" class="input__filed" placeholder="سال انتشار" />
+        </div>
+        <button type="submit" class="add-btn" id="add-btn">Add Book</button>
+      </form>
+      ‌
+      <div class="wrraper__book">
+        <table class="book-table">
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Author</th>
+              <th>Year</th>
+            </tr>
+          </thead>
+          <tbody id="book-list"></tbody>
+        </table>
+      </div>
+    </div>
+    ‌
+  </body>
+</html>

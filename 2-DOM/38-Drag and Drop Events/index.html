@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!--
+     <h1 id="react" draggable="true">React Js</h1>
+    <h1 id="veu" draggable="true">vue Js</h1>
+
+    <div class="drop"></div> 
+    -->
+
+    <h1
+      id="react"
+      draggable="true"
+      ondragstart="console.log('drag start')"
+      ondrag="console.log('drag')"
+      ondragend="console.log('drag end')"
+    >
+      React Js
+    </h1>
+    <h1
+      id="veu"
+      draggable="true"
+      ondragstart="console.log('drag start')"
+      ondrag="console.log('drag')"
+      ondragend="console.log('drag end')"
+    >
+      Vue Js
+    </h1>
+
+    <div
+      class="drop"
+      ondragenter="console.log('drag enter')"
+      ondragover="dragOverHandler(event)"
+      ondragleave="console.log('drag leave')"
+      ondrop="console.log('drop')"
+    ></div>
+
+    <script>
+      function dragOverHandler(event) {
+        event.preventDefault();
+        console.log('DragOver');
+      }
+    </script>
+
+    <script src="./script/script.js" defer></script>
+  </body>
+</html>
