@@ -1,11 +1,11 @@
 //This will separate those items that are equal to that condition
-/*let ages = [12, 15, 19, 17];
+let ages = [12, 15, 19, 17];
 
 let result = ages.filter((age) => {
-    return age < 18;
+  return age < 18;
 });
 
-console.log(result);*/
+console.log(result);
 
 // ===========================================================
 

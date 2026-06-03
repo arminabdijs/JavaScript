@@ -9,13 +9,13 @@ setInterval(() => {
 
 // ===========================================================
 
-/*let number = 20;
+let number = 20;
 
 let timer = setInterval(() => {
-    console.log(number);
-    if (number === 0) {
-        clearInterval(timer);
-        console.log("time Out");
-    }
-    number--;
-}, 1000); */
+  console.log(number);
+  if (number === 0) {
+    clearInterval(timer);
+    console.log('time Out');
+  }
+  number--;
+}, 1000);

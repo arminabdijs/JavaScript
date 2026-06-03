@@ -1,12 +1,10 @@
-let enterNumber1 = Number(prompt("Enter 1 number : "));
-let enterNumber2 = Number(prompt("Enter 2 number : "));
+let userNumber = Number(prompt('Enter the Number : ', 0));
+let sum = 0;
 
-if (enterNumber1 <= 0 || enterNumber2 <= 0) {
-  console.log("numbers not 0 and -1,-2,-3,....");
+while (userNumber / 10 != 0) {
+  sum += userNumber % 10;
+  userNumber = Math.floor(userNumber / 10);
+
 }
 
-while (enterNumber1 > 0 && enterNumber2 > 0) {
-  let sum = enterNumber1 ** enterNumber1;
-  console.log(sum);
-  break;
-}
+console.log('Sum Of Digits : ', sum);

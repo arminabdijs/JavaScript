@@ -1,4 +1,4 @@
-/*const users = ["Armin", "Ali", "mohammad"];
+/* const users = ["Armin", "Ali", "mohammad"];
 users.forEach(function () {
   console.log("hello");
 });*/

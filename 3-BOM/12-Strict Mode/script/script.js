@@ -1,4 +1,4 @@
-'use strict';
+// 'use strict';
 
 /* num = 12;
 console.log(num); */
@@ -10,6 +10,19 @@ undefined = 13; */
 
 /* console.log(010 + 020); //Octal
 console.log(0o10 + 0o20); */
-let username = 'Armin';
+
+/* let username = 'Armin';
 delete username;
 console.log(username);
+ */
+
+num = 2;
+console.log(num);
+
+function showValue() {
+  'use strict';
+
+  numberVal = 34;
+}
+
+showValue()

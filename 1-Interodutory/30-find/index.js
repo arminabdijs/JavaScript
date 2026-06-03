@@ -1,15 +1,21 @@
-/*let users = [{id: 1, name: "Ali", age: 21}, {id: 1, name: "Amin", age: 19}, {id: 1, name: "Amir", age: 26}, {
-    id: 1, name: "Babak", age: 28
-},];
+/* let users = [
+  { id: 1, name: 'Ali', age: 21 },
+  { id: 1, name: 'Amin', age: 19 },
+  { id: 1, name: 'Amir', age: 26 },
+  {
+    id: 1,
+    name: 'Babak',
+    age: 28,
+  },
+];
 
 //It returns according to the condition we gave it, and it returns the condition that is equal to it, or in other words, it finds it.
-users.find((age) => {
-    if (age.name === "Amir") {
-        console.log(age);
-    }
-});*/
-
-
+users.find((name) => {
+  if (name.name === 'Amir') {
+    console.log(name);
+  }
+});
+ */
 // ===========================================================
 
 /*
