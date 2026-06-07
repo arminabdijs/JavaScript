@@ -53,6 +53,17 @@ console.log(text.toUpperCase());*/
 
 // ===========================================================
 
+// This method convert number to string
+/* let text = 500000;
+console.log(text.toString()); */
+// ===========================================================
+
+// This method convert number to string
+/* let text = 500000;
+console.log(text.toLocaleString()); */
+
+// ===========================================================
+
 // This method looks for the word we gave it, and if it exists, it returns the beginning index of this word to me.
 /*let text = "I love JavaScript";
 console.log(text.search("Java"));
@@ -121,5 +132,3 @@ eval("console.log(12)");*/
 
 /*console.log(text.split(" "));
 console.log(text.split(""));*/
-
-

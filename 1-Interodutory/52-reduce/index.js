@@ -1,3 +1,6 @@
+/* let result = numbers.reduce((accumlator, currentValue) => {});
+ */
+
 /*let numbers = [1, 2, 3];
 
 let result = numbers.reduce((total, number) => {
@@ -57,7 +60,6 @@ let grouped = users.reduce((acc, user) => {
 }, {});
 
 console.log(grouped);*/
-
 
 // ===========================================================
 
