@@ -21,3 +21,13 @@ console.log(true + true);
 console.log(12 / "3");
 
 console.log(12 == "12");
+
+
+
+
+
+
+
+
+
+//https://wtfjs.com/wtfs/2010-02-23-boolean-paradox
