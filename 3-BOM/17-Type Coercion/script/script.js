@@ -31,3 +31,4 @@ console.log(12 == "12");
 
 
 //https://wtfjs.com/wtfs/2010-02-23-boolean-paradox
+// https://dorey.github.io/JavaScript-Equality-Table/
