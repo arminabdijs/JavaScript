@@ -1,0 +1,23 @@
+[{
+  "_id": {
+    "$oid": "6a28a2f0b9ca0062d1f0e61a"
+  },
+  "name": "سارا نوروزی",
+  "email": "sara.n@example.com",
+  "city": "تهران",
+  "orders": [
+    "O1001",
+    "O1005"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a28a303b9ca0062d1f0e61b"
+  },
+  "name": "امیر حسین‌زاده",
+  "email": "amir.h@example.com",
+  "city": "اصفهان",
+  "orders": [
+    "O1002"
+  ]
+}]

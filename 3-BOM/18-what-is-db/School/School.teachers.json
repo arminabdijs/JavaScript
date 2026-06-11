@@ -1,0 +1,18 @@
+[{
+  "_id": {
+    "$oid": "6a28a134b9ca0062d1f0e605"
+  },
+  "teacher_id": "T101",
+  "name": "خانم اکبری",
+  "subject": "کلاس پنجم",
+  "experience_years": 8
+},
+{
+  "_id": {
+    "$oid": "6a28a14ab9ca0062d1f0e606"
+  },
+  "teacher_id": "T102",
+  "name": "آقای کریمی",
+  "subject": "کلاس ششم",
+  "experience_years": 5
+}]

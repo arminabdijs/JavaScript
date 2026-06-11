@@ -1,0 +1,35 @@
+[{
+  "_id": {
+    "$oid": "6a28a177b9ca0062d1f0e608"
+  },
+  "subject_name": "ریاضی",
+  "credits": 3
+},
+{
+  "_id": {
+    "$oid": "6a28a188b9ca0062d1f0e609"
+  },
+  "subject_name": "علوم",
+  "credits": 3
+},
+{
+  "_id": {
+    "$oid": "6a28a19ab9ca0062d1f0e60a"
+  },
+  "subject_name": "فارسی",
+  "credits": 2
+},
+{
+  "_id": {
+    "$oid": "6a28a1a9b9ca0062d1f0e60b"
+  },
+  "subject_name": "ورزش",
+  "credits": 1
+},
+{
+  "_id": {
+    "$oid": "6a28a1c1b9ca0062d1f0e60c"
+  },
+  "subject_name": "هنر",
+  "credits": 1
+}]
