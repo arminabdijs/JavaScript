@@ -10,19 +10,18 @@ function unloadHandler() {
 } */
 
 // ======================================================
-window.addEventListener('pagehide', () => {
+/* window.addEventListener('pagehide', () => {
   alert('کاربر صفحه را ترک کرد');
-});
+}); */
 // ======================================================
 
 window.addEventListener('beforeunload', () => {
-  alert('event beforeunload');
+  log('event beforeunload');
 });
 
 function beForeunLoadHandler() {
   log('event beforeunload');
 }
-
 
 /*
 کاربر می‌خواهد صفحه را ترک کند
