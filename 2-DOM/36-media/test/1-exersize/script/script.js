@@ -20,30 +20,30 @@ const currentTimeEl = _id('current-time');
 
 const songs = [
     {
-    path: '/assets/audio/Baba_Bah_Bah_FT_Mahyar.mp3',
+    path: './assets/audio/Baba_Bah_Bah_FT_Mahyar.mp3',
     name: 'Baba_Bah_Bah_FT_Mahyar',
     artist: 'شایع',
-    cover: '/assets/images/Baba_Bah_Bah_FT_Mahyar.png',
+    cover: './assets/images/Baba_Bah_Bah_FT_Mahyar.png',
 }, {
-    path: '/assets/audio/_nazanm_chon.mp3',
+    path: './assets/audio/_nazanm_chon.mp3',
     name: 'nazanm_chon',
     artist: 'nazanm',
-    cover: '/assets/images/nazanm_chon.png',
+    cover: './assets/images/nazanm_chon.png',
 }, {
-    path: '/assets/audio/@jezhw4n__جێژوان_–_Dinmeyen__Dam_Üstüne_Çul_serer.mp3',
+    path: './assets/audio/@jezhw4n__جێژوان_–_Dinmeyen__Dam_Üstüne_Çul_serer.mp3',
     name: 'jezhw4n__جێژوان_–_Dinmeyen__Dam_Üstüne_Çul_serer',
     artist: ' جێژوان',
-    cover: '/assets/images/@jezhw4n__جێژوان_–_Dinmeyen__Dam_Üstüne_Çul_serer.png',
+    cover: './assets/images/@jezhw4n__جێژوان_–_Dinmeyen__Dam_Üstüne_Çul_serer.png',
 }, {
-    path: '/assets/audio/@musicallkurdi_حسن_حیاس_ئەم_شەوە_چەند_درێژە.mp3',
+    path: './assets/audio/@musicallkurdi_حسن_حیاس_ئەم_شەوە_چەند_درێژە.mp3',
     name: '@musicallkurdi_حسن_حیاس_ئەم_شەوە_چەند_درێژە',
     artist: 'حسن حیاسی',
-    cover: '/assets/images/@musicallkurdi.png',
+    cover: './assets/images/@musicallkurdi.png',
 }, {
-    path: '/assets/audio/@RapRelease_-_Faghat_Bash_-_Mahyar.mp3',
+    path: './assets/audio/@RapRelease_-_Faghat_Bash_-_Mahyar.mp3',
     name: '@RapRelease_-_Faghat_Bash_-_Mahyar',
     artist: 'Mahyar',
-    cover: '/assets/images/@RapRelease_-_Faghat_Bash_-_Mahyar.png',
+    cover: './assets/images/@RapRelease_-_Faghat_Bash_-_Mahyar.png',
 },];
 
 let songIndex = 0;
