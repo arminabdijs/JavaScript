@@ -14,7 +14,7 @@ console.log(newTitle); */
 /* let userName=prompt("Enter your name:");
 let newTitle=document.createElement('h1');
 newTitle.setAttribute('id','main__title');
-mewTitle.setAttribute('class','title');
+newTitle.setAttribute('class','title');
 newTitle.style.color='blue';
 newTitle.textContent=`Hello ${userName}, welcome to our website!`;
 console.log(newTitle); */
