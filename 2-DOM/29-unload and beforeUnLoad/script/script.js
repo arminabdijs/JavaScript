@@ -14,6 +14,10 @@ function unloadHandler() {
   alert('کاربر صفحه را ترک کرد');
 }); */
 // ======================================================
+/* window.addEventListener("pageshow", () => {
+  console.log("صفحه نمایش داده شد");
+});*/
+// ======================================================
 
 window.addEventListener('beforeunload', () => {
   log('event beforeunload');
